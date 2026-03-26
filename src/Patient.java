@@ -28,6 +28,10 @@ class Patient {
         this.height = height;
     }
 
+    int getId() {
+        return id;
+    }
+
     String getSurname() {
         return surname;
     }
